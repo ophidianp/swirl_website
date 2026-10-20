@@ -1,0 +1,59 @@
+img {
+    width: 200px;
+}
+body{
+    text-align: center;
+    font-weight: bolder;
+    padding-left: 0px;
+    padding-top: 300px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(0, 52, 52);
+    color: whitesmoke;
+    font-size: larger;
+}
+
+h1{
+    color: rgb(0, 195, 195);
+    font-size: 150px    ;
+}
+.list_policy{
+    text-align: left;
+    list-style-position: inside;
+}
+
+.p1{
+    color: rgb(100, 255, 160)
+}
+
+.p2{
+
+    color: rgb(0, 255, 195);
+
+}
+
+
+footer {
+    background-color: rgb(0, 70, 70);
+    color: rgb(255,255,255);
+    margin-top: 512px;
+    padding-top: 10px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.button_trick {
+background-color: rgb(0, 201, 201);
+font-family: 'Courier New', Courier, monospace;
+font-size: large;
+padding: 12px 12px;
+font-weight: bold;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+color: rgb(1, 59, 59);
+}
+
+.button_trick:hover{
+    background-color: gold;
+}
