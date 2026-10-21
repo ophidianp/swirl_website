@@ -34,3 +34,7 @@ footer {
 .button_trick:hover{
     background-color: gold;
 }
+
+.copyrighted_text{
+    text-decoration: underline;
+}
