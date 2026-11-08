@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="liquid-glass.css"/>
+     <link rel="stylesheet" href="style.css"/>
         <link rel="icon" href="icon.ico"/>
         <title>pavans page</title>
     </head>
@@ -16,7 +17,7 @@
         <button class="button_trick">back</button>
         </a>
         <p>the ACUTUAL back button</p>
-        <footer>
+        <footer class="lg-bar" data-glass="60">
             <nav>
                 <a href="index.html">main page</a>
                 <a href="404.html">404 page</a>
@@ -29,5 +30,7 @@
                 <p> cuz im NOT leaking my acutal email</p>  
             </nav>
         </footer>
+        <script src="liquid-glass.js"></script>
+        <script>LiquidGlass.init({ lens: ["footer nav"], lensItems: "a" });</script>
     </body>
 </html>

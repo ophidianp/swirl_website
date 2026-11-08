@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+     <link rel="stylesheet" href="liquid-glass.css"/>
      <link rel="stylesheet" href="style.css"/>    
      <link rel="icon" href="icon.ico">
      <title>pavans page</title>
     </head>
     <body>
-        <h1>Pavan's Page</h1>
-        <h2>yoooo my names pavan</h2>
+        <header class="top lg-bar" data-glass="77">
+            <h1>Pavan's Page</h1>
+            <h2>yoooo my names pavan</h2>
+        </header>
+        <main class="card" data-glass="55">
         <p>9th grader in Leander, tx</p>
         <p>I looove the starbucks carmel ribbon crunch</p>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUreRG4aSxU02hpQldYM8Io6r1rVa8a5wzyt6SrHVumQ&s"> 
@@ -43,7 +47,8 @@
         <p>i use arch btw</p>
         <img src="https://i.etsystatic.com/43579062/r/il/94fd4d/5700269725/il_fullxfull.5700269725_fkb0.jpg" alt="i use arch btw">
         <p>wait i dont i jst use windows idk why i said that</p>
-        <footer>
+        </main>
+        <footer class="lg-bar" data-glass="60">
             <nav>
                 <a href="index.html">main page</a>
                 <a href="404.html">404 page</a>
@@ -56,5 +61,7 @@
                 <p> cuz im NOT leaking my acutal email</p>
             </nav>
         </footer>
+        <script src="liquid-glass.js"></script>
+        <script>LiquidGlass.init({ lens: ["footer nav"], lensItems: "a" });</script>
     </body>
 </html>

@@ -34,3 +34,8 @@ footer {
 .button_back:hover{
     background-color: gold;
 }
+
+/* springy button (liquid-glass.css gives --spring) */
+.button_back { transition: transform 0.5s var(--spring), background-color 0.25s; }
+.button_back:hover { transform: translateY(-2px) scale(1.06); }
+.button_back:active { transform: scale(0.94); transition-duration: 0.12s; }
